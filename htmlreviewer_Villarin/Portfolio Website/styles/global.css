@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+:root {
+  --primary-font: "Inter", serif;
+  --secondary-font: "Schoolbell", serif;
+  --color-primary: #6f48b5;
+  --color-accent: #281843;
+  --color-bg: linear-gradient(135deg, #131316, #0b0b0e, #281843);
+  --color-bg-alt: #0b0b0e;
+  --color-container-bg: #0b0b0e;
+  --color-container-border: #131316;
+  --color-container-border-hover: #6f58b5;
+  --color-button-bg: #6f48b5;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-image: var(--color-bg);
+  font-optical-sizing: auto;
+  background-position: center;
+  background-size: contain;
+  font-style: normal;
+  font-size: smaller;
+  line-height: 1rem;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  background-color: var(--color-container-bg);
+}
+
+main {
+  width: 90%;
+  background-position: center;
+  background-size: contain;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  line-height: 1.5rem;
+  gap: 1rem;
+}
+
+div {
+  max-width: 1440px;
+}
+
+h1,
+h2 {
+  font-family: var(--secondary-font);
+}
+
+p,
+a {
+  font-family: var(--primary-font);
+  text-decoration: none;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-button-bg);
+  border: 1px solid var(--color-container-border);
+}

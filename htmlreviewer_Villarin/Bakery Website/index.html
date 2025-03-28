@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pan Daks</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"> Pan Daks </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero-section text-center" id="home">
+      <div class="container">
+        <h1 class="display-4 text-white">Dako, Lami, Ug Satisfying!</h1>
+        <p class="lead text-white">
+          <strong>Big-sized Cebuano breads that fill your cravings!</strong>
+        </p>
+        <a href="#products" class="btn btn-primary mt-3">View Our Breads</a>
+      </div>
+    </header>
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="section-title">Our Story</h2>
+        <div class="section-divider"></div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-8">
+            <p style="text-align: justify">
+              At <strong>Pan Daks</strong>, we believe that
+              <strong>bigger is better</strong> when it comes to bread! Our
+              <strong>generously sized</strong> Cebuano classics are made using
+              traditional recipes, ensuring each bite is filled with rich,
+              authentic flavors.
+            </p>
+            <p style="text-align: justify">
+              Inspired by the warmth of home-baked goodness and the vibrant
+              culture of Cebu, we take pride in crafting breads that not only
+              satisfy your cravings but also bring people together. Each loaf
+              and pastry is a tribute to the time-honored techniques passed down
+              through generations, using only the finest ingredients for a taste
+              that feels like home.
+            </p>
+            <p style="text-align: justify">
+              Whether you're sharing a hearty snack with family or savoring a
+              nostalgic favorite, <strong>Pan Daks</strong> promises a
+              delightful experience in every bite. Join us in celebrating
+              tradition, taste, and the joy of bigger, better bread!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="py-5">
+      <div class="container">
+        <h2 class="section-title">Our Best-Selling Big Breads</h2>
+        <div class="section-divider"></div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card product-card">
+              <img
+                src="./assets/images/shakoy.png"
+                class="card-img-top"
+                alt="Shakoy"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  <strong>Shakoy (Twisted Donut)</strong>
+                </h5>
+                <p class="card-text" style="text-align: justify">
+                  <strong>Long, crispy, and coated with sugar</strong>, our
+                  Shakoy is deep-fried to golden perfection, making it the
+                  ultimate sweet and crunchy treat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card product-card">
+              <img
+                src="./assets/images/spanish.png"
+                class="card-img-top"
+                alt="Spanish Bread"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong>Spanish Bread</strong></h5>
+                <p class="card-text" style="text-align: justify">
+                  <strong>Soft and buttery with a sweet, creamy filling</strong
+                  >, our Spanish Bread is thick, fluffy, and baked to perfection
+                  for a delightful bite.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card product-card">
+              <img
+                src="./assets/images/choco-lanay.png"
+                class="card-img-top"
+                alt="Choco Lanay"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><strong>Choco Lanay</strong></h5>
+                <p class="card-text" style="text-align: justify">
+                  <strong>Big and filled with rich, melted chocolate</strong>,
+                  our Choco Lanay offers a soft, chewy bite with an indulgent
+                  cocoa burst in every piece.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section py-5">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-divider"></div>
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary mt-3">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer py-3 text-center">
+      <div class="container">
+        <span>© 2025 Pan Daks. All Rights Reserved.</span>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

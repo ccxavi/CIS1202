@@ -1,0 +1,20 @@
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  font-family: var(--secondary-font);
+}
+
+.logo {
+  font-size: larger;
+}
+
+nav .access {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: small;
+}
