@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Cafe Tira</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/dashboard.css" />
+    <link rel="stylesheet" href="./styles/menu.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/contacts.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <div class="logo-img"></div>
+        </div>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <div class="dropdown">
+            <a class="nav-item">Menu</a>
+            <div class="dropdown-menu">
+              <h3>Explore</h3>
+              <ul>
+                <li>
+                  <a href="#drinks">
+                    <p>Drinks</p>
+                    <p>Lorem, ipsum dolor.</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#snacks">
+                    <p>Snacks</p>
+                    <p>Lorem, ipsum dolor.</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#desserts">
+                    <p>Desserts</p>
+                    <p>Lorem, ipsum dolor.</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#specials">
+                    <p>Specials</p>
+                    <p>Lorem, ipsum dolor.</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#about">About</a>
+          <a href="#contact-us">Contact</a>
+          <a href="#socials">Socials</a>
+        </div>
+        <div class="search-button">
+          <form class="search">
+            <input type="text" placeholder="Search" name="search" />
+            <button type="submit" class="search-btn">
+              <i class="bx bx-search"></i>
+            </button>
+          </form>
+          <button type="button" class="cart-btn">
+            <i class="bx bx-cart"></i>
+          </button>
+          <button type="button" class="cart-btn">
+            <i class="bx bx-user"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="layout">
+      <div class="dashboard" id="home">
+        <div class="dashboard-text">
+          <h1>Coffee, Tea, or Me?</h1>
+          <h3>Brewing Moments, One Cup at a Time</h3>
+          <p>
+            Whether you crave bold espresso, soothing tea, or just a cozy
+            escape—Café Tira is your perfect sip of happiness. Step inside, let
+            the aroma embrace you, and enjoy handcrafted drinks made with
+            passion. Stay for the flavors, the warmth, and the stories shared
+            over every cup.
+          </p>
+          <div class="buttons">
+            <button>
+              <div class="text">Explore</div>
+              <div class="icon">
+                <i class="bx bx-link-external"></i>
+              </div>
+            </button>
+            <button>
+              <div class="text">Order Coffee</div>
+              <div class="icon">
+                <i class="bx bx-coffee-togo"></i>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="dashboard-image"></div>
+      </div>
+      <div class="menu" id="menu">
+        <div class="menu-heading">
+          <h2 id="best-sellers">Best Sellers</h2>
+        </div>
+        <div class="menu-container">
+          <div class="menu1 menu-box">
+            <img src="./assets/best sellers/tsc.png" draggable="false" />
+            <h3>Tira Signature Coffee</h3>
+            <p>Rich espresso with a hint of caramel and vanilla.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu2 menu-box">
+            <img src="./assets/best sellers/ct.png" draggable="false" />
+            <h3>Classic Tiramisu</h3>
+            <p>Creamy, coffee-infused Italian dessert.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu3 menu-box">
+            <img src="./assets/best sellers/hml.png" draggable="false" />
+            <h3>Hazelnut Mocha Latte</h3>
+            <p>A smooth blend of chocolate, hazelnut, and espresso.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu4 menu-box">
+            <img src="./assets/best sellers/bc.png" draggable="false" />
+            <h3>Butter Croissant</h3>
+            <p>Flaky, buttery perfection, baked fresh daily.</p>
+            <button type="submit">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu" id="drinks">
+        <div class="menu-heading">
+          <h2>Drinks</h2>
+        </div>
+        <div class="menu-container">
+          <div class="menu1 menu-box">
+            <img src="./assets/drinks/e.png" draggable="false" />
+            <h3>Espresso</h3>
+            <p>A bold, single-shot of pure energy.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu2 menu-box">
+            <img src="./assets/drinks/a.png" draggable="false" />
+            <h3>Americano</h3>
+            <p>Espresso with hot water for a smooth taste.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu3 menu-box">
+            <img src="./assets/drinks/c.png" draggable="false" />
+            <h3>Cappuccino</h3>
+            <p>Frothy, creamy, and perfectly balanced.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu4 menu-box">
+            <img src="./assets/drinks/icm.png" draggable="false" />
+            <h3>Iced Caramel Macchiato</h3>
+            <p>Sweet caramel goodness over ice.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu5 menu-box">
+            <img src="./assets/drinks/ml.png" draggable="false" />
+            <h3>Matcha Latte</h3>
+            <p>Smooth green tea with creamy milk.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu6 menu-box">
+            <img src="./assets/drinks/ctl.png" draggable="false" />
+            <h3>Chai Tea Latte</h3>
+            <p>Warm, spiced comfort in a cup, just like it should be.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu7 menu-box">
+            <img src="./assets/drinks/mit.png" draggable="false" />
+            <h3>Mango Iced Tea</h3>
+            <p>Refreshing black tea with a mango twist.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu8 menu-box">
+            <img src="./assets/drinks/hc.png" draggable="false" />
+            <h3>Hot Chocolate</h3>
+            <p>Velvety, rich cocoa topped with whipped cream.</p>
+            <button type="submit">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu" id="snacks">
+        <div class="menu-heading">
+          <h2>Snacks</h2>
+        </div>
+        <div class="menu-container">
+          <div class="menu1 menu-box">
+            <img src="./assets/snacks/snc.png" draggable="false" />
+            <h3>Spicy Nacho Chips</h3>
+            <p>Spicy corn chips served with a side of zesty cheese dip.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu2 menu-box">
+            <img src="./assets/snacks/ab.png" draggable="false" />
+            <h3>Almond Biscotti</h3>
+            <p>Crunchy and slightly sweet, perfect with coffee.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu3 menu-box">
+            <img src="./assets/snacks/gyp.png" draggable="false" />
+            <h3>Granola Yogurt Parfait</h3>
+            <p>Layers of yogurt, granola, and fresh fruit.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu4 menu-box">
+            <img src="./assets/snacks/ff.png" draggable="false" />
+            <h3>French Fries</h3>
+            <p>Crispy, golden, and lightly salted perfection.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu5 menu-box">
+            <img src="./assets/snacks/b.png" draggable="false" />
+            <h3>Bruschetta</h3>
+            <p>Toasted bread with tomatoes, basil, and balsamic glaze.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu6 menu-box">
+            <img src="./assets/snacks/mq.png" draggable="false" />
+            <h3>Mini Quiche</h3>
+            <p>Flaky crust with a savory egg filling.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu7 menu-box">
+            <img src="./assets/snacks/at.png" draggable="false" />
+            <h3>Avocado Toast</h3>
+            <p>Smashed avocado on sourdough with chili flakes.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu8 menu-box">
+            <img src="./assets/snacks/sn.png" draggable="false" />
+            <h3>Spiced Nuts</h3>
+            <p>A mix of roasted nuts with a touch of heat.</p>
+            <button type="submit">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu" id="desserts">
+        <div class="menu-heading">
+          <h2>Desserts</h2>
+        </div>
+        <div class="menu-container">
+          <div class="menu1 menu-box">
+            <img src="./assets/deserts/t.png" draggable="false" />
+            <h3>Tiramisu</h3>
+            <p>A Café Tira classic, always a favorite!</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu2 menu-box">
+            <img src="./assets/deserts/mlc.png" draggable="false" />
+            <h3>Molten Lava Cake</h3>
+            <p>Rich chocolate cake with a gooey center.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu3 menu-box">
+            <img src="./assets/deserts/c.png" draggable="false" />
+            <h3>Cheesecake</h3>
+            <p>Classic, creamy, velvety, and irresistibly delicious.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu4 menu-box">
+            <img src="./assets/deserts/bs.png" draggable="false" />
+            <h3>Brownie Sundae</h3>
+            <p>Fudgy brownie topped with vanilla ice cream.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu5 menu-box">
+            <img src="./assets/deserts/m.png" draggable="false" />
+            <h3>Macarons</h3>
+            <p>Assorted flavors of delicate French cookies.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu6 menu-box">
+            <img src="./assets/deserts/bp.png" draggable="false" />
+            <h3>Banoffee Pie</h3>
+            <p>Bananas, caramel, and whipped cream on a biscuit crust.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu7 menu-box">
+            <img src="./assets/deserts/ss.png" draggable="false" />
+            <h3>Strawberry Shortcake</h3>
+            <p>Layers of sponge cake, cream, and fresh berries.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu8 menu-box">
+            <img src="./assets/deserts/lt.png" draggable="false" />
+            <h3>Lemon Tart</h3>
+            <p>Tangy, zesty, and sweet perfection.</p>
+            <button type="submit">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu" id="specials">
+        <div class="menu-heading">
+          <h2>Specials</h2>
+        </div>
+        <div class="menu-container">
+          <div class="menu1 menu-box">
+            <img src="./assets/specials/tsl.png" draggable="false" />
+            <h3>Tira's Secret Latte</h3>
+            <p>A surprise blend of flavors, changes weekly!</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu2 menu-box">
+            <img src="./assets/specials/sft.png" draggable="false" />
+            <h3>Seasonal Fruit Tart</h3>
+            <p>Fresh, locally sourced fruits on a buttery crust.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu3 menu-box">
+            <img src="./assets/specials/shc.png" draggable="false" />
+            <h3>Spiced Honey Cappuccino</h3>
+            <p>A cozy, aromatic twist on a classic favorite.</p>
+            <button type="submit">Order Now</button>
+          </div>
+          <div class="menu4 menu-box">
+            <img src="./assets/specials/chc.png" draggable="false" />
+            <h3>Choco Hazelnut Croissant</h3>
+            <p>A flaky croissant filled with chocolate and hazelnut cream.</p>
+            <button type="submit">Order Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <div class="about-text">
+          <h1>
+            <i
+              >If your café is your bread and butter, Tira is going to be your
+              jam.</i
+            >
+          </h1>
+          <br />
+          <p>
+            Welcome to Café Tira, a cozy spot where great coffee meets warm
+            conversations. Nestled in the heart of the city, our café is a blend
+            of rustic charm and modern comfort, offering a welcoming space for
+            coffee enthusiasts, remote workers, and casual catch-ups alike.
+          </p>
+        </div>
+        <div class="about-logo">
+          <img src="./assets/images/logo.png" alt="logo" draggable="false" />
+        </div>
+      </div>
+      <div class="contacts" id="contact-us">
+        <div class="contacts-text">
+          <h3>ADDRESS</h3>
+          <p>123 Fifth Avenue, California, LA 90015, USA</p>
+          <br />
+          <h3>PHONE NUMBER</h3>
+          <p>+1 323-486-7770</p>
+          <br />
+          <h3>EMAIL ADDRESS</h3>
+          <p>info.café.tira.com</p>
+        </div>
+        <div class="contacts-form">
+          <h1>Contact Us</h1>
+          <br />
+          <form action="#" method="POST">
+            <div class="first">
+              <input type="text" name="name" placeholder="Name" required />
+              <input type="text" name="email" placeholder="Email" required />
+            </div>
+            <div class="second">
+              <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="third">
+              <textarea
+                name="message"
+                placeholder="Message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">BOOK RESERVATION</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="upper">
+          <h1>Wanna partner with us?</h1>
+          <br />
+          <p>
+            If you're interested in our partnership, and would like to find out
+            some more information, feel free to email us!
+          </p>
+        </div>
+        <div class="mid">
+          <div class="left">
+            <img
+              src="./assets/images/logo.png"
+              alt="footer-logo"
+              draggable="false"
+            />
+          </div>
+          <div class="center">
+            <div class="links">
+              <h3>Quick Links</h3>
+              <a href="#home">Home</a>
+              <a href="#menu">Menu</a>
+              <a href="about">About Us</a>
+              <a href="contact-us">Contact Us</a>
+              <a href="socials">Socials</a>
+            </div>
+            <div class="links">
+              <h3>Menu</h3>
+              <a href="#best-sellers">Best Sellers</a>
+              <a href="#drinks">Drinks</a>
+              <a href="#snacks">Snacks</a>
+              <a href="#desserts">Desserts</a>
+              <a href="#specials">Specials</a>
+            </div>
+            <div class="links">
+              <h3>Legal</h3>
+              <a href="#">Site Terms</a>
+              <a href="#">Privacy</a>
+              <a href="#">Terms and Conditions</a>
+            </div>
+          </div>
+          <div class="right">
+            <h3>Contacts</h3>
+            <p>+1 323-486-7770</p>
+            <p>USA, California, 90015</p>
+            <h3>Inquires</h3>
+            <a href="mailto:info.café.tira.com">info.café.tira.com</a>
+          </div>
+        </div>
+        <div class="lower">
+          <div class="copyright">
+            <br />
+            <p>© 2025 Café Tira. All rights reserved.</p>
+          </div>
+          <div class="socials" id="socials">
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+              <i class="bx bxl-facebook-circle"></i>
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

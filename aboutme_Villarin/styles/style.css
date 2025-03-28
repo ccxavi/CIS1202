@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --primary-blue: #0077be;
+  --secondary-blue: #4eb3ff;
+  --light-blue: #e6f2ff;
+  --text-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(
+    135deg,
+    var(--light-blue) 0%,
+    var(--secondary-blue) 100%
+  );
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.header img {
+  border-radius: 50%;
+  border: 4px solid var(--primary-blue);
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.header h1 {
+  color: var(--primary-blue);
+  margin-top: 1rem;
+}
+
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--primary-blue);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--primary-blue);
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.section h2 {
+  color: var(--primary-blue);
+  border-bottom: 2px solid var(--secondary-blue);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.section ul,
+.section ol {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section ul li,
+.section ol li {
+  margin-bottom: 0.5rem;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+  padding: 10px;
+  border: 1px solid var(--secondary-blue);
+  text-align: left;
+}
+
+.skills-table th {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-links p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: var(--primary-blue);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: var(--secondary-blue);
+}
+
+footer {
+  background-color: var(--primary-blue);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+footer a {
+  color: var(--light-blue);
+  text-decoration: none;
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+html {
+  background-image: var(--bgcolor);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--heading-color);
+}
+
+p,
+a {
+  color: var(--p-color);
+}
+
+:root {
+  --smoky-black: #29221a;
+  --smoky-black-2: #040404;
+  --bistre: #372a1aff;
+  --black: #030303ff;
+  --smoky-black-3: #201b15;
+  --chamoisee: #9e7148ff;
+  --bgcolor: linear-gradient(
+    135deg,
+    var(--smoky-black) 10%,
+    var(--smoky-black-2) 65%,
+    var(--smoky-black-3) 75%
+  );
+  --menu-container: #1f1a15;
+  --heading-color: #ead7b7;
+  --p-color: #c8a67e;
+}
+
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout {
+  background-position: center;
+  background-size: contain;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  line-height: 1.5rem;
+  gap: 2rem;
+}
+
+header {
+  background-color: var(--bgcolor);
+  width: 100%;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  max-width: 1440px;
+}
+
+.layout button {
+  background-color: var(--smoky-black);
+  border: 2px solid var(--chamoisee);
+  border-radius: 0.5rem;
+}
+
+.layout button:hover {
+  opacity: 0.8;
+}
