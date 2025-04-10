@@ -1,0 +1,502 @@
+[
+  {
+    "course_id": 1,
+    "course_name": "Leverage 24/365 Applications",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 2,
+    "course_name": "Grow Viral E-Services",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 3,
+    "course_name": "Mesh Cross-Platform Models",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 4,
+    "course_name": "Evolve Extensible Networks",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 5,
+    "course_name": "Leverage Real-Time Infrastructures",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 6,
+    "course_name": "Whiteboard Holistic Web-Readiness",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 7,
+    "course_name": "Implement Leading-Edge Action-Items",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 8,
+    "course_name": "Synthesize Interactive Supply-Chains",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 9,
+    "course_name": "Re-Contextualize Vertical E-Markets",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 10,
+    "course_name": "Facilitate Magnetic Infrastructures",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 11,
+    "course_name": "Streamline Synergistic Methodologies",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 12,
+    "course_name": "Revolutionize Open-Source Partnerships",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 13,
+    "course_name": "Evolve One-To-One Systems",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 14,
+    "course_name": "Syndicate Integrated Content",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 15,
+    "course_name": "Synergize Wireless Networks",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 16,
+    "course_name": "Synthesize Strategic Vortals",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 17,
+    "course_name": "Morph Integrated Users",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 18,
+    "course_name": "Streamline Magnetic Mindshare",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 19,
+    "course_name": "Target Wireless Methodologies",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 20,
+    "course_name": "Integrate Revolutionary Roi",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 21,
+    "course_name": "Syndicate Interactive Niches",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 22,
+    "course_name": "Harness Rich Experiences",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 23,
+    "course_name": "Architect Collaborative Schemas",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 24,
+    "course_name": "Re-Contextualize 24/365 Web Services",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 25,
+    "course_name": "Brand Holistic Web Services",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 26,
+    "course_name": "Streamline Customized Niches",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 27,
+    "course_name": "Facilitate Out-Of-The-Box E-Commerce",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 28,
+    "course_name": "Utilize B2B Convergence",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 29,
+    "course_name": "Leverage Cross-Platform Networks",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 30,
+    "course_name": "Extend Wireless Infrastructures",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 31,
+    "course_name": "Architect Strategic Platforms",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 32,
+    "course_name": "Grow B2C Technologies",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 33,
+    "course_name": "Architect Magnetic Niches",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 34,
+    "course_name": "Harness Plug-And-Play Vortals",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 35,
+    "course_name": "Implement Cross-Platform Methodologies",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 36,
+    "course_name": "Facilitate Distributed Web-Readiness",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 37,
+    "course_name": "Productize Visionary Web Services",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 38,
+    "course_name": "Exploit Impactful Info-Mediaries",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 39,
+    "course_name": "Enable 24/365 Partnerships",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 40,
+    "course_name": "Embrace Efficient Infrastructures",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 41,
+    "course_name": "Embrace Proactive Interfaces",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 42,
+    "course_name": "Cultivate Global Portals",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 43,
+    "course_name": "Drive Best-Of-Breed Methodologies",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 44,
+    "course_name": "Repurpose Dynamic Technologies",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 45,
+    "course_name": "Enable Revolutionary Niches",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 46,
+    "course_name": "Benchmark Killer Info-Mediaries",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 47,
+    "course_name": "Matrix Distributed Initiatives",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 48,
+    "course_name": "Incubate Sticky Markets",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 49,
+    "course_name": "Scale Scalable Web Services",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 50,
+    "course_name": "Redefine Innovative Web-Readiness",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 51,
+    "course_name": "Syndicate Best-Of-Breed Platforms",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 52,
+    "course_name": "Repurpose One-To-One Web Services",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 53,
+    "course_name": "Enhance World-Class Supply-Chains",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 54,
+    "course_name": "Deploy Robust Paradigms",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 55,
+    "course_name": "Integrate Extensible Applications",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 56,
+    "course_name": "Facilitate Web-Enabled Niches",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 57,
+    "course_name": "Drive Frictionless Metrics",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 58,
+    "course_name": "Engineer Efficient Solutions",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 59,
+    "course_name": "Empower Interactive Platforms",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 60,
+    "course_name": "Incubate Granular Portals",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 61,
+    "course_name": "Aggregate Viral Synergies",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 62,
+    "course_name": "Grow Cross-Media Niches",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 63,
+    "course_name": "Reinvent Web-Enabled Interfaces",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 64,
+    "course_name": "Re-Contextualize Open-Source Architectures",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 65,
+    "course_name": "Optimize Synergistic Vortals",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 66,
+    "course_name": "Drive Killer Metrics",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 67,
+    "course_name": "Harness Customized Solutions",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 68,
+    "course_name": "Engineer Dot-Com Convergence",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 69,
+    "course_name": "Repurpose Sticky Metrics",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 70,
+    "course_name": "Re-Intermediate Killer E-Business",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 71,
+    "course_name": "Deploy Mission-Critical Methodologies",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 72,
+    "course_name": "Strategize Scalable Vortals",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 73,
+    "course_name": "Redefine Cross-Media Channels",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 74,
+    "course_name": "Enhance Ubiquitous Deliverables",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 75,
+    "course_name": "Incubate Efficient Web Services",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 76,
+    "course_name": "Visualize Compelling Infrastructures",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 77,
+    "course_name": "Optimize End-To-End Bandwidth",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 78,
+    "course_name": "Transition Revolutionary Web-Readiness",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 79,
+    "course_name": "Embrace User-Centric Eyeballs",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 80,
+    "course_name": "Embrace Holistic Interfaces",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 81,
+    "course_name": "Transform One-To-One Communities",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 82,
+    "course_name": "Harness Global Info-Mediaries",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 83,
+    "course_name": "Mesh Out-Of-The-Box Eyeballs",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 84,
+    "course_name": "Benchmark End-To-End Web-Readiness",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 85,
+    "course_name": "Maximize Magnetic Web Services",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 86,
+    "course_name": "Brand Global Networks",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 87,
+    "course_name": "Facilitate Turn-Key Convergence",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 88,
+    "course_name": "Envisioneer Dynamic E-Business",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 89,
+    "course_name": "Grow Mission-Critical E-Tailers",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 90,
+    "course_name": "Matrix 24/7 Markets",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 91,
+    "course_name": "Matrix Holistic Users",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 92,
+    "course_name": "Synergize Proactive Infrastructures",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 93,
+    "course_name": "Grow 24/7 Systems",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 94,
+    "course_name": "Streamline Transparent Synergies",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 95,
+    "course_name": "Transition End-To-End Paradigms",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 96,
+    "course_name": "Innovate Strategic Models",
+    "schedule": "TTh 2-4PM"
+  },
+  {
+    "course_id": 97,
+    "course_name": "Re-Contextualize 24/7 Vortals",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 98,
+    "course_name": "E-Enable Mission-Critical Synergies",
+    "schedule": "Sat 1-4PM"
+  },
+  {
+    "course_id": 99,
+    "course_name": "Repurpose Revolutionary Schemas",
+    "schedule": "MWF 9-11AM"
+  },
+  {
+    "course_id": 100,
+    "course_name": "Unleash Strategic Models",
+    "schedule": "Sat 1-4PM"
+  }
+]
