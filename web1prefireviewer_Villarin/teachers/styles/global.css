@@ -31,6 +31,27 @@ body {
   color: var(--text-primary) !important;
 }
 
+.table-color {
+  color: var(--text-primary) !important;
+  background: var(--card-bg) !important;
+}
+
+.table-wrapper {
+  max-height: 340px;
+  overflow-y: scroll;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.table-wrapper table {
+  margin-bottom: 0;
+}
+
+.table-wrapper tbody:empty::before {
+  display: none;
+  content: none;
+}
+
 .card-header h3,
 .card-header p,
 p.text-center,
